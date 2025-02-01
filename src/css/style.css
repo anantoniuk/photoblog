@@ -8,3 +8,10 @@
   --fontPrimary: "Playfair Display", serif;
   --fontSecont: "Ubuntu", serif;
 }
+body {
+  font-family: var(--fontPrimary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--colorTextPrimary);
+}
