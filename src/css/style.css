@@ -1,0 +1,10 @@
+:root {
+  /* кольори */
+  --colorTextPrimary: #626262;
+  --colorTextСategories: #b4ad9e;
+  --colorTextNav: #7d7d7d;
+  --colorTextHover: #03a9f4;
+  /* шрифти */
+  --fontPrimary: "Playfair Display", serif;
+  --fontSecont: "Ubuntu", serif;
+}
