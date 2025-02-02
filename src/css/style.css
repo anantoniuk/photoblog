@@ -15,3 +15,29 @@ body {
   line-height: 1.35;
   color: var(--colorTextPrimary);
 }
+.nav-link {
+  color: var(--colorTextNav);
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: var(--colorTextHover);
+}
+.post-category {
+  font-family: var(--fontSecont);
+  color: var(--colorTextСategories);
+}
+.post-title {
+  font-size: 30px;
+}
+.gallery-button {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  border: 1px solid var(--colorTextPrimary);
+  background-color: transparent;
+  padding: 20px 50px;
+}
+.gallery-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
