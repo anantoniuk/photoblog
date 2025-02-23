@@ -21,18 +21,36 @@ body {
   margin-right: auto;
   padding: 0px 15px 0px 15px;
 }
+/* nav */
+.header {
+  padding-top: 70px;
+}
 .nav-link {
   color: var(--colorTextNav);
 }
 .nav-link:hover {
   color: var(--colorTextHover);
 }
+/* hero */
+.gallery {
+  padding-top: 90px;
+  padding-bottom: 65px;
+}
+.gallery-list {
+  margin-bottom: 95px;
+}
+.post-photo {
+  margin-bottom: 60px;
+}
 .post-category {
   font-family: var(--fontSecont);
   color: var(--colorTextСategories);
+  display: inline-block;
+  margin-bottom: 30px;
 }
 .post-title {
   font-size: 30px;
+  margin-bottom: 40px;
 }
 .gallery-button {
   border: 1px solid var(--colorTextPrimary);
