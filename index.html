@@ -155,9 +155,20 @@
               </article>
             </li>
           </ul>
-          <button class="gallery-button" type="button">Load more</button>
+          <button class="gallery-button" type="button" data-modal-open>
+            Load more
+          </button>
+          <!-- ============== -->
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="btn-close" data-modal-close>Close</button>
+              <h2 class="modal-title">Successfully loaded</h2>
+            </div>
+          </div>
+          <!-- ========= -->
         </div>
       </section>
     </main>
+    <script type="module" src="./src/js/index.js"></script>
   </body>
 </html>
